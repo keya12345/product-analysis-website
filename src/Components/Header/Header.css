@@ -1,0 +1,18 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    
+}
+.link:hover{
+    color: orange;
+}
+
+.link{
+    margin-left: 3px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
