@@ -9,7 +9,7 @@ import Review from "./Components/Review/Review";
 import Header from "./Components/Header/Header";
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header></Header>
       <Routes>
         <Route path="/home" element={<Home></Home>}></Route>
