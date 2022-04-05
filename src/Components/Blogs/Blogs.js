@@ -8,7 +8,7 @@ const Blogs = () => {
         <h1>Q.1:What is Context API</h1>
         <p>
           The way to send something directly from one component to another is by
-          avoiding context op.context op props drilling.
+          avoiding context op.context api avoid props drilling.
         </p>
       </div>
       <div>Q.2:Semantic Tags </div>
