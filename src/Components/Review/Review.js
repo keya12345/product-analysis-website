@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
+
 import Item from "../Item/Item";
 
 export const dressReview = createContext("dress");
@@ -11,10 +12,9 @@ const Review = () => {
   }, []);
   return (
     <dressReview.Provider value={dress}>
-      <div>
-        <h1>{dress.length}</h1>
+      <div className="grid grid-cols-3 gap-2  ">
         {dress.map((item) => (
-          <Item dress={dress}></Item>
+          <Item dress={item} key={item.id}></Item>
         ))}
       </div>
     </dressReview.Provider>

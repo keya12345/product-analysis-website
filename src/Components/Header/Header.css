@@ -11,8 +11,3 @@
     color: orange;
 }
 
-.link{
-    margin-left: 3px;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-}

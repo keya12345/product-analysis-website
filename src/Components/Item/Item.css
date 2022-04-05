@@ -1,0 +1,10 @@
+.dressItem img{
+  height: 250px;
+  width: 250px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.dressItem{
+    border: 2px solid gray;
+    border-radius: 10px;
+}

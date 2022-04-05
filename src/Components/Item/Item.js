@@ -1,10 +1,12 @@
-import React from "react";
+import "./Item.css";
 
 const Item = ({ dress }) => {
   return (
-    <div>
-      <h1>name:{dress.name}</h1>
-      <img src="{image}" alt="" />
+    <div className="dressItem">
+      <img src={dress.image} alt="" />
+      <p className="text-2xl">name:{dress.name}</p>
+      <p>review:{dress.details}</p>
+      <p className="text-xl">Ratting:{dress.rating}</p>
     </div>
   );
 };
