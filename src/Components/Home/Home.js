@@ -1,10 +1,9 @@
 import React, { useContext } from "react";
-import { dressReview } from "../Review/Review";
+
 import "./Home.css";
 
-const Home = () => {
-  const dress = useContext(dressReview);
-
+const Home = ({ dress }) => {
+  console.log(dress);
   return (
     <div>
       <div className="grid grid-cols-2 gap-4">
@@ -31,7 +30,6 @@ const Home = () => {
         <h1 className="text-3xl font-semibold text-center mt-10">
           Coustomer Reviwes(3)
         </h1>
-        <h1>{dress.length}</h1>
 
         <button className="rounded-full bg-teal-400 mx-4 p-3">
           See all reviews
