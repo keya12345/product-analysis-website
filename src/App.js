@@ -6,9 +6,11 @@ import Blogs from "./Components/Blogs/Blogs";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import NotFound from "./Components/NotFound/NotFound";
 import Review from "./Components/Review/Review";
+import Header from "./Components/Header/Header";
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <Routes>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/review" element={<Review></Review>}></Route>
